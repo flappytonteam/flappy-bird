@@ -381,8 +381,8 @@ window.onload = function(){
     }
 	maxScore = 0;
 	dropSpeed = 0.3;
-	mode = 0;
-	delta = 100;
+	mode = 1;
+	delta = 0;
 	initCanvas();
 	easy = document.getElementById("easy");
     easy.onclick = easyMode;
